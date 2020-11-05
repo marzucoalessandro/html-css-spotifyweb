@@ -31,7 +31,7 @@
 }
 
 .pdtb-10{
-  padding: 10px 0;
+  padding: 10px 0 20px 0;
 }
 .pdt-10 {
   padding-top: 10px;
@@ -80,11 +80,12 @@ aside.main_menu {
 }
 
 .playlist{
-  line-height: 35px;
+  line-height: 25px;
 }
 
 .playlist h4{
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
   .playlist i{
@@ -100,7 +101,7 @@ aside.main_menu {
  }
 
  .playlist ul li{
-   font-size: 15px;
+   font-size: 10px;
    list-style-type: none;
    text-transform: capitalize;
    color: grey;
@@ -147,7 +148,25 @@ aside.main_menu {
   }
 
   .fondo{
-    padding-top: 100px;
+    padding-top: 180px;
+  }
+
+  /* main site central */
+
+  .card-1{
+    padding-right: 10px;
+  }
+  .card-1 img{
+    width: 100%;
+  }
+  .card-1 h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .card-1 p{
+    color: grey;
+    padding-top: 10px;
   }
 
 
@@ -170,7 +189,7 @@ aside.main_menu {
     right: 0;
     width: calc(100% - 200px);
     /* height: 60px; */
-    background-color: #8a2be2a1;
+    background-color: #00000075;
     padding: 15px 0;
 }
 
@@ -180,6 +199,8 @@ aside.main_menu {
   padding: 5px 30px;
   background-color: black;
   margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 20px
 }
 
 .nav-site{
@@ -188,7 +209,12 @@ aside.main_menu {
 }
 
 .navbar a{
-  padding: 0 15px;
+  padding: 0 12px;
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 
