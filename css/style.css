@@ -48,24 +48,50 @@ body {
     height: calc(100% - 60px);
 }
 aside.main_menu {
-    min-width: 300px;
+    min-width: 200px;
     background-color: black;
+    padding: 15px 30px 5px 10px;
+}
+
+.basic-item{
+  position: relative;
+}
+.logo{
+  width: 60%;
+  padding-bottom: 30px;
+}
+
+.home{
+  width: 15%;
+}
+.basic{
+  display: inline;
+  position: absolute;
+  top: 0;
+  padding-left: 10px;
+  font-size: 15px;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+
+
 }
 
 .covers_section {
-    background-color: aquamarine;
+    background-color: #030d38;
     padding: 20px;;
     overflow-y: auto;
     overflow-x: hidden;
     padding-top: 60px;
     /* margin-top: 60px; */
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
 }
 .subscribe_banner {
     position: fixed;
     top: 0;
     right: 0;
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     /* height: 60px; */
     background-color: #8a2be2a1;
     padding: 15px 0;
@@ -76,6 +102,7 @@ aside.main_menu {
   color: white;
   padding: 5px 30px;
   background-color: black;
+  margin-right: 20px;
 }
 
 .nav-site{
@@ -93,7 +120,7 @@ aside.main_menu {
 
 /* Footer */
 footer#site_footer {
-    background-color: yellowgreen;
+    background-color: #312c2c;
     height: 60px;
     position: fixed;
     bottom: 0;
@@ -101,7 +128,7 @@ footer#site_footer {
     width: 100%;
 }
 
-.foot-sx{
+.foot-sx {
   float: left;
 }
 
