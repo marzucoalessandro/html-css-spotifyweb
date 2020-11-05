@@ -18,6 +18,14 @@
   clear: both;
 }
 
+.txt-c{
+  text-align: center;
+}
+
+.bd{
+  border: 1px solid black;
+}
+
 body {
     background-color: #333;
     color: white;
@@ -62,13 +70,17 @@ aside.main_menu {
   background-color: black;
 }
 
-
-/* Covers section */
-.item {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.nav-site{
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
+
+.navbar a{
+  padding: 0 15px;
+}
+
+
+
 
 
 /* Footer */
