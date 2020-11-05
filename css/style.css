@@ -70,7 +70,7 @@ aside.main_menu {
 .basic{
   display: inline;
   position: absolute;
-  top: 0;
+  top: 20%;
   padding-left: 10px;
   font-size: 15px;
   color: white;
@@ -87,8 +87,7 @@ aside.main_menu {
   text-transform: uppercase;
 }
 
-
- .playlist i{
+  .playlist i{
    color: black;
    background-color: lightgrey;
    padding: 5px;
@@ -106,6 +105,53 @@ aside.main_menu {
    text-transform: capitalize;
    color: grey;
  }
+
+ .install{
+   border-bottom: 1px solid grey;
+   position: relative;
+
+ }
+
+ .install img{
+   width: 15px;
+   padding-bottom: 5px;
+ }
+
+ .install p{
+   display: inline;
+   color: grey;
+   padding-left: 10px;
+   text-transform: capitalize;
+   position: absolute;
+   top: -10%;
+ }
+
+  .john{
+    padding-top: 15px;
+    position: relative;
+  }
+  .john img{
+    color: white;
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 100%;
+  }
+
+  .john p{
+    display: inline;
+    padding-left: 10px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 40%;
+  }
+
+  .fondo{
+    padding-top: 100px;
+  }
+
+
+
 
 
 
