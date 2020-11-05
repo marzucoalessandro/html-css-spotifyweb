@@ -26,6 +26,14 @@
   border: 1px solid black;
 }
 
+.pd10{
+  padding: 10px;
+}
+
+.pdtb-10{
+  padding: 10px 0;
+}
+
 body {
     background-color: #333;
     color: white;
