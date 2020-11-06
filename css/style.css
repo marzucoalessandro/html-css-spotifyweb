@@ -181,8 +181,8 @@ aside.main_menu {
   /* main site central */
 
   .card-1{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
   }
   .card-1 img{
@@ -207,6 +207,8 @@ aside.main_menu {
     display: none;
     width: 100%;
     height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #403f3f91;
     position: absolute;
     top: 0;
@@ -223,6 +225,7 @@ aside.main_menu {
 
   .card-1:hover .overlay{
     display: block;
+    cursor: pointer;
   }
 
 
@@ -239,7 +242,7 @@ aside.main_menu {
 
 
 .covers_section {
-    background-color: #030d38;
+    background-color: #020925;
     padding: 20px;;
     overflow-y: auto;
     overflow-x: hidden;
@@ -268,8 +271,8 @@ aside.main_menu {
 }
 
 .covers_section button:hover{
-  background-color: lightgrey;
-  color: black;
+  /* background-color: lightgrey;
+  color: black; */
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -300,12 +303,48 @@ footer#site_footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    display: flex;
+    padding: 10px 5px 5px;
 }
+
 
 .foot-sx {
-  float: left;
+  background-color: red;
+  width: 10%;
+  display: flex;
+
 }
 
+.foot-sx img{
+  height: 45px;
+  padding-top: 5px;
+}
+.foot-text{
+  padding-left: 5px;
+  height: 40px;
+  padding-top: 15px;
+}
+
+.foot-sx h6 {
+   font-size: 10px;
+}
+
+.foot-sx p{
+  font-size: 8px;
+}
+
+.cuore{
+  padding-top: 15px;
+  padding-left: 45px;
+}
+
+
 .foot-dx{
-  float: right;
+  background-color: yellow;
+  width: 10%;
+}
+
+.foot-centre{
+  background-color: white;
+  width: 80%;
 }
