@@ -298,18 +298,19 @@ aside.main_menu {
 /* Footer */
 footer#site_footer {
     background-color: #312c2c;
-    height: 60px;
+    height: 70px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     padding: 10px 5px 5px;
 }
 
 
 .foot-sx {
-  background-color: red;
+  /* background-color: red; */
   width: 10%;
   display: flex;
 
@@ -331,20 +332,74 @@ footer#site_footer {
 
 .foot-sx p{
   font-size: 8px;
+  width: 50px;
 }
 
+
 .cuore{
-  padding-top: 15px;
-  padding-left: 45px;
+  padding-top: 20px;
+  padding-left: 40px;
+  color: lightgrey;
+}
+
+.folder{
+  padding-top: 20px;
+  padding-left: 15px;
+  color: lightgrey;
 }
 
 
 .foot-dx{
-  background-color: yellow;
-  width: 10%;
+  display: flex;
+  align-items: center;
+  /* width: 10%; */
+}
+.foot-dx i{
+  font-size: 10px;
+  padding: 0 10px;
+}
+
+.small-bar{
+  width: 200px;
+  height: 2px;
+  background-color: lightgrey;
 }
 
 .foot-centre{
-  background-color: white;
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+.player{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  /* background-color: red; */
+  padding-bottom: 10px;
+}
+
+.load{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar{
+  width: 400px;
+  height: 3px;
+  background-color: lightgrey;
+}
+
+
+.play{
+  font-size: 30px;
+}
+
+.load span{
+  font-size: 10px;
+  padding: 0 20px;
 }
