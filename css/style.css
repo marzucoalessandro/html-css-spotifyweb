@@ -367,7 +367,8 @@ footer#site_footer {
 .small-bar{
   width: 200px;
   height: 2px;
-  background-color: lightgrey;
+  background-color: grey;
+  position: relative;
 }
 
 .foot-centre{
@@ -396,7 +397,17 @@ footer#site_footer {
 .bar{
   width: 400px;
   height: 3px;
-  background-color: lightgrey;
+  background-color: grey;
+  position: relative;
+}
+
+.lenght-white{
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
