@@ -230,17 +230,6 @@ aside.main_menu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .covers_section {
     background-color: #020925;
     padding: 20px;;
@@ -276,7 +265,7 @@ aside.main_menu {
   transform: scale(1.1);
   cursor: pointer;
 }
-
+/* *********navbar element********** */
 .nav-site{
   padding-top: 10px;
   padding-bottom: 30px;
@@ -289,6 +278,22 @@ aside.main_menu {
   text-transform: uppercase;
   font-size: 10px;
   font-weight: bold;
+  position: relative;
+}
+
+.green{
+  width: 30px;
+  height: 1px;
+  background-color: green;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+.navbar a:hover .green{
+  display: block;
 }
 
 
