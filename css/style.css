@@ -281,6 +281,11 @@ aside.main_menu {
   position: relative;
 }
 
+#genre{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .green{
   width: 30px;
   height: 1px;
@@ -419,3 +424,12 @@ footer#site_footer {
   font-size: 10px;
   padding: 0 20px;
 }
+
+
+/* ********media query****** */
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+  .mdpt-10{
+    padding-top: 10px;
+  }
