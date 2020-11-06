@@ -271,6 +271,10 @@ aside.main_menu {
   padding-bottom: 30px;
 }
 
+.nav-site .container{
+  width: 100%;
+}
+
 .navbar a{
   padding: 0 12px;
   text-decoration: none;
