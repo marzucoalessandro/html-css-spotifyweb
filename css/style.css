@@ -47,7 +47,7 @@
 }
 
 .grey{
-  color: grey;
+  color: #b3b3b3;
 }
 .bdr{
   border-radius: 100%;
@@ -91,10 +91,14 @@ aside.main_menu {
   top: 20%;
   padding-left: 10px;
   font-size: 10px;
-  color: white;
+  color: #b3b3b3;
   font-weight: normal;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.basic-item h5:hover{
+  color: white;
 }
 
 .playlist{
@@ -124,7 +128,7 @@ aside.main_menu {
    font-size: 10px;
    list-style-type: none;
    text-transform: capitalize;
-   color: grey;
+   color: #b3b3b3;
  }
 
  .install{
@@ -141,7 +145,7 @@ aside.main_menu {
  .install p{
    display: inline;
    font-size: 10px;
-   color: grey;
+   color: #b3b3b3;
    padding-left: 10px;
    text-transform: capitalize;
    position: absolute;
@@ -193,6 +197,10 @@ aside.main_menu {
     padding-top: 10px;
   }
 
+  .create p{
+    font-size: 12px;
+  }
+
 
 
 
@@ -233,6 +241,13 @@ aside.main_menu {
   margin-right: 20px;
   border: 1px solid white;
   border-radius: 20px
+}
+
+.covers_section button:hover{
+  background-color: lightgrey;
+  color: black;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .nav-site{
