@@ -269,9 +269,14 @@ aside.main_menu {
 .nav-site{
   padding-top: 10px;
   padding-bottom: 30px;
+  justify-content: center;
 }
 
-.nav-site .container{
+/* .nav-site .container{
+  width: 100%;
+} */
+
+.nav-site {
   width: 100%;
 }
 
@@ -280,7 +285,7 @@ aside.main_menu {
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: bold;
   position: relative;
 }
@@ -440,4 +445,8 @@ footer#site_footer {
 
   .mdpt-10{
     padding-top: 10px;
+  }
+
+  @media screen and (min-width: 490px) and (max-width: 768px) {
+    .col-offset-md-0
   }
