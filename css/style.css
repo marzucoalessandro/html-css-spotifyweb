@@ -285,6 +285,10 @@ aside.main_menu {
   position: relative;
 }
 
+#new{
+  padding: 0;
+}
+
 #genre{
   padding-left: 0;
   padding-right: 0;
