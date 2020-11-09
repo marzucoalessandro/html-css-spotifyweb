@@ -84,6 +84,11 @@ aside.main_menu {
   padding-bottom: 30px;
 }
 
+.toggle i{
+  font-size: 25px;
+  display: none;
+}
+
 .home{
   width: 15%;
 }
@@ -549,6 +554,28 @@ footer#site_footer {
      flex-direction: column;
      align-content: center;
    }
+
+   .main_menu h5, .main_menu .playlist{
+     display: none;
+   }
+
+   .fondo p{
+     display: none;
+   }
+
+   .install{
+     border-bottom: none;
+   }
+
+   .logo{
+     display: none;
+   }
+   .toggle i{
+     display: block;
+     margin-bottom: 10px;
+   }
+
+
 
 
 
