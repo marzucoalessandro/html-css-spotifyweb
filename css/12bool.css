@@ -185,7 +185,7 @@
 }
 /* Small screen media */
 
-@media all and (min-width: 490px) and (max-width: 768px) {
+@media all and (min-width: 590px) and (max-width: 768px) {
   .col-sm-1 {
     width: calc((100%/12) *1);
   }
@@ -261,7 +261,7 @@
   }
 }
 
-@media all and (max-width: 489px) {
+@media all and (max-width: 590px) {
   .col-xs-1 {
     width: calc((100%/12) *1);
   }
