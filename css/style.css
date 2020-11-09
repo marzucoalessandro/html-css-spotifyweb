@@ -69,9 +69,11 @@ body {
     height: calc(100% - 60px);
 }
 aside.main_menu {
-    min-width: 200px;
+    min-width: auto;
     background-color: black;
     padding: 15px 30px 5px 10px;
+    flex-direction: column;
+
 }
 
 .basic-item{
@@ -175,7 +177,7 @@ aside.main_menu {
   }
 
   .fondo{
-    padding-top: 180px;
+    margin-top: auto;
   }
 
   /* main site central */
@@ -290,14 +292,7 @@ aside.main_menu {
   position: relative;
 }
 
-/* #new{
-  padding: 0;
-}
 
-#genre{
-  padding-left: 0;
-  padding-right: 0;
-} */
 
 .green{
   width: 30px;
