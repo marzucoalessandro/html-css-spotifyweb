@@ -447,6 +447,25 @@ footer#site_footer {
     padding-top: 10px;
   }
 
+  .navbar {
+   flex-wrap: wrap;
+  }
+
   .navbar a{
-   
+    flex-basis: calc(100% / 5);
+  }
+
+  .search {
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: 490px) and (max-width: 768px) {
+
+    .navbar{
+      flex-wrap: wrap;
+    }
+
+    .navbar a{
+      flex-basis: calc(100% / 3);
+    }
   }
