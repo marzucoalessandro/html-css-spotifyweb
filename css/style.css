@@ -456,16 +456,21 @@ footer#site_footer {
   }
 
   .search {
-    padding-top: 20px;
+    margin-top: 20px;
   }
-
+}
   @media screen and (min-width: 490px) and (max-width: 768px) {
 
-    .navbar{
+     .navbar{
       flex-wrap: wrap;
     }
 
     .navbar a{
       flex-basis: calc(100% / 3);
     }
+
+    .genre, .new, .search {
+      margin-top: 20px;
+    }
+
   }
