@@ -20,8 +20,8 @@
 } */
 
 .container {
-  /* max-width: 1200px;
-  margin: 0 auto;*/
+  /* max-width: 1200px; */
+  margin: 0 auto;
 }
 
 
@@ -336,19 +336,3 @@
     margin-left: calc((100%/12) *11);
   }
 }
-
-
-
-
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
