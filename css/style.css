@@ -281,7 +281,7 @@ aside.main_menu {
 }
 
 .navbar a{
-  padding: 0 12px;
+  padding: 5px;
   text-decoration: none;
   color: grey;
   text-transform: uppercase;
@@ -290,14 +290,14 @@ aside.main_menu {
   position: relative;
 }
 
-#new{
+/* #new{
   padding: 0;
 }
 
 #genre{
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 .green{
   width: 30px;
@@ -469,8 +469,19 @@ footer#site_footer {
       flex-basis: calc(100% / 3);
     }
 
-    .genre, .new, .search {
-      margin-top: 20px;
-    }
+
+  }
+
+  @media screen and (max-width: 489px) {
+
+    .navbar{
+     flex-wrap: wrap;
+   }
+
+   .navbar a{
+     flex-basis: calc(100% / 4);
+   }
+
+   
 
   }
