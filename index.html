@@ -1,303 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify clone</title>
-    <link rel="stylesheet" href="css/12bool.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spotify clone</title>
+      <link rel="stylesheet" href="css/12bool.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <div class="wrapper d-flex">
-        <main id="site_content" class="d-flex">
-            <!-- sezione aside della pagina -->
-            <aside class="main_menu">
+      <main id="site_content" class="d-flex">
+        <!-- sezione aside della pagina -->
+        <aside class="main_menu">
 
-              <div class="logo">
-                <img src="img/logo.svg" alt="">
-              </div>
-
-              <div class="basic-item">
-                <div>
-                  <a href="#"><img class="home" src="img/home.svg" alt="">
-                  <h5 class="basic">home</h5>
-                  </a>
-                </div>
-              </div>
-
-              <div class="basic-item">
-                <div>
-                  <a href="#"><img class="home" src="img/search.svg" alt="">
-                  <h5 class="basic">cerca</h5>
-                  </a>
-                </div>
-              </div>
-
-              <div class="basic-item">
-                <div>
-                  <a href="#"><img class="home" src="img/libreria.svg" alt="">
-                  <h5 class="basic">la tua libreria</h5>
-                  </a>
-                </div>
-              </div>
-
-              <!-- cre0 un contenitore con h4 span e ul -->
-              <div class="pdt-10 playlist">
-
-                <h4>playlist</h4>
-                <div>
-                  <i class="fas fa-plus"></i>
-                  <p>crea playlist</p>
+          <div class="logo">
+                  <img src="img/logo.svg" alt="">
                 </div>
 
-                <ul>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                  <li>nome playlist</li>
-                </ul>
+          <div class="basic-item">
+            <div>
+              <a href="#"><img class="home" src="img/home.svg" alt="">
+                <h5 class="basic">home</h5>
+              </a>
+            </div>
+          </div>
 
-              </div>
+          <div class="basic-item">
+            <div>
+              <a href="#"><img class="home" src="img/search.svg" alt="">
+                <h5 class="basic">cerca</h5>
+              </a>
+            </div>
+          </div>
 
-              <!-- creo un contenitore per parte in fondo alla barra aside -->
-              <div class="fondo">
+          <div class="basic-item">
+            <div>
+              <a href="#"><img class="home" src="img/libreria.svg" alt="">
+                <h5 class="basic">la tua libreria</h5>
+              </a>
+            </div>
+          </div>
 
-                <div class="install">
-                  <img src="img/download.svg" alt="">
-                  <p>Installa app</p>
-                </div>
+          <!-- cre0 un contenitore con h4 span e ul -->
+          <div class="pdt-10 playlist">
 
-                <div class="john">
-                  <img src="img/profile.svg" alt="">
-                  <p>john doe</p>
+            <h4>playlist</h4>
+            <div>
+              <i class="fas fa-plus"></i>
+              <p>crea playlist</p>
+            </div>
 
-                </div>
+            <ul>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+              <li>nome playlist</li>
+            </ul>
 
+          </div>
 
-              </div>
+          <!-- creo un contenitore per parte in fondo alla barra aside -->
+          <div class="fondo">
 
+          <div class="install">
+                    <img src="img/download.svg" alt="">
+                    <p>Installa app</p>
+                  </div>
 
+          <div class="john">
+                    <img src="img/profile.svg" alt="">
+                    <p>john doe</p>
 
+                  </div>
 
-            </aside>
+          </div>
 
-            <section class="covers_section">
+        </aside>
 
-                <div class="subscribe_banner clear">
+        <section class="covers_section">
 
-                  <button class="button" type="button" name="button">effettua upgrade</button>
-                </div>
+          <div class="subscribe_banner clear">
 
-                <!-- navbar con 6 link nella row -->
-                <nav class="nav-site navbar d-flex">
+                <button class="button" type="button" name="button">effettua upgrade</button>
+          </div>
 
-                  <a href="#">in evidenza
-                    <div class="green"></div>
-                  </a>
+          <!-- navbar con 6 link nella row -->
+          <nav class="nav-site navbar d-flex">
 
-                  <a href="#">podcast
-                    <div class="green"></div>
-                  </a>
+                <a href="#">in evidenza
+                  <div class="green"></div>
+                </a>
 
-                  <a href="#">classifiche
-                    <div class="green"></div>
-                  </a>
+                <a href="#">podcast
+                  <div class="green"></div>
+                </a>
 
-                  <a class="genre"href="#">generi e mood
-                    <div class="green"></div>
-                  </a>
+                <a href="#">classifiche
+                  <div class="green"></div>
+                </a>
 
-                  <a class="new" href="#">nuove uscite
-                    <div class="green"></div>
-                  </a>
+                <a class="genre"href="#">generi e mood
+                  <div class="green"></div>
+                </a>
 
-                  <a class="search" href="#">scopri
-                    <div class="green"></div>
-                  </a>
+                <a class="new" href="#">nuove uscite
+                  <div class="green"></div>
+                </a>
 
-                  <!-- <div class="container">
+                <a class="search" href="#">scopri
+                  <div class="green"></div>
+                </a>
 
-                    <div class="row navbar txt-c">
-
-
-
-                      <div class="col-offset-lg-3 col-lg-1 col-offset-md-1 col-md-2 col-sm-4">
-                        <a href="#">in evidenza
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-
-                      <div class="col-lg-1 col-md-2 col-sm-4">
-                        <a href="#">podcast
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-                      <div class="col-lg-1 col-md-2 col-sm-4">
-                        <a href="#">classifiche
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-                      <div class="col-lg-1 col-md-2 col-sm-4">
-                        <a id="genre" href="#">generi e mood
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-                      <div class="col-lg-1 col-md-2 col-sm-4">
-                        <a id="new" href="#">nuove uscite
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-                      <div class="col-lg-1 col-offset-md-5 col-md-2 col-sm-4">
-                        <a class="search" href="#">scopri
-                          <div class="green"></div>
-                        </a>
-                      </div>
-
-                    </div>
-
-                  </div> -->
+          </nav>
 
 
 
-                </nav>
-                <!-- contenitore per sezione recntly -->
-                <div class="recently">
-                  <!-- all'interno contenitore con h2 + row e 6 col -->
+          <!-- contenitore per sezione recntly -->
+          <div class="recently">
+                    <!-- all'interno contenitore con h2 + row e 6 col -->
 
 
-                  <div class="container">
-                    <h2 class="pdtb-10">recently played</h2>
+                    <div class="container">
+                      <h2 class="pdtb-10">recently played</h2>
 
-                    <div class="row">
+                      <div class="row">
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno overlay + img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno overlay + img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/metal_lifting.jpg" alt="">
+                          <h4>heavy metal</h4>
+                          <p>subtitle</p>
+
                         </div>
-                        <img src="img/metal_lifting.jpg" alt="">
-                        <h4>heavy metal</h4>
-                        <p>subtitle</p>
 
-                      </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/player_left.jpg" alt="">
+                          <h4>hilltop hoods</h4>
+                          <p>subtitle</p>
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
                         </div>
-                        <img src="img/player_left.jpg" alt="">
-                        <h4>hilltop hoods</h4>
-                        <p>subtitle</p>
 
-                      </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/aquietplace.jpeg" alt="">
+                          <h4>a quiet place</h4>
+                          <p>subtitle</p>
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
                         </div>
-                        <img src="img/aquietplace.jpeg" alt="">
-                        <h4>a quiet place</h4>
-                        <p>subtitle</p>
 
-                      </div>
+                        <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/split.jpeg" alt="">
+                          <h4>split</h4>
+                          <p>subtitle</p>
 
-                      <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
                         </div>
-                        <img src="img/split.jpeg" alt="">
-                        <h4>split</h4>
-                        <p>subtitle</p>
 
-                      </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 mdpt-10 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/cure.jpeg" alt="">
+                          <h4>a cure for wellness</h4>
+                          <p>subtitle</p>
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 mdpt-10 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
                         </div>
-                        <img src="img/cure.jpeg" alt="">
-                        <h4>a cure for wellness</h4>
-                        <p>subtitle</p>
 
-                      </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 mdpt-10 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/sinister.jpeg" alt="">
+                          <h4>sinister</h4>
+                          <p>subtitle</p>
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 mdpt-10 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
                         </div>
-                        <img src="img/sinister.jpeg" alt="">
-                        <h4>sinister</h4>
-                        <p>subtitle</p>
+
 
                       </div>
-
-
                     </div>
                   </div>
-                </div>
-                <!-- fine sezione recently -->
+          <!-- fine sezione recently -->
 
-                <div id="created_for">
-                  <div class="container create">
-                    <h2 class="pdtb-20">creato per John Doe</h2>
-                    <p class="grey pdb-20">piu ascolti,più accurati saranno i suggerimenti</p>
+          <div id="created_for">
+                    <div class="container create">
+                      <h2 class="pdtb-20">creato per John Doe</h2>
+                      <p class="grey pdb-20">piu ascolti,più accurati saranno i suggerimenti</p>
 
-                    <div class="row">
-                      <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
+                      <div class="row">
+                        <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/radar.jpeg" alt="">
+                          <h4>release radar</h4>
+
+
                         </div>
-                        <img src="img/radar.jpeg" alt="">
-                        <h4>release radar</h4>
 
+                        <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img src="img/mixdaily.jpeg" alt="">
+                          <h4>daily mix</h4>
+
+
+                        </div>
 
                       </div>
-
-                      <div class="col-lg-2  col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
-                        </div>
-                        <img src="img/mixdaily.jpeg" alt="">
-                        <h4>daily mix</h4>
-
-
-                      </div>
-
                     </div>
                   </div>
-                </div>
-                <!-- fine sezione created for -->
+          <!-- fine sezione created for -->
 
-                <div id="popular">
-                  <div class="container create">
-                    <h2 class="pdtb-20">artisti più popolari</h2>
-                    <p class="grey pdb-20">piu ascolti,più accurati saranno i suggerimenti</p>
+          <div id="popular">
+                <div class="container create">
+                  <h2 class="pdtb-20">artisti più popolari</h2>
+                  <p class="grey pdb-20">piu ascolti,più accurati saranno i suggerimenti</p>
 
-                    <div class="row">
+                  <div class="row">
 
-                      <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c ">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
-                        </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c ">
+                      <!-- all'interno img + h4 + p -->
+                      <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
                         <img class="bdr" src="img/youg.jpeg" alt="">
                         <h4>lana del rey</h4>
 
@@ -305,75 +255,82 @@
                       </div>
 
                       <div class="col-lg-2 col-md-3 col-sm-6 col-xs-6 card-1 txt-c">
-                        <!-- all'interno img + h4 + p -->
-                        <div class="overlay">
-                          <span><i class="far fa-play-circle"></i></span>
-                        </div>
-                        <img class="bdr" src="img/einaudi.jpeg" alt="">
-                        <h4>einaudi</h4>
+                          <!-- all'interno img + h4 + p -->
+                          <div class="overlay">
+                            <span><i class="far fa-play-circle"></i></span>
+                          </div>
+                          <img class="bdr" src="img/einaudi.jpeg" alt="">
+                          <h4>einaudi</h4>
 
+
+                        </div>
 
                       </div>
-
-                    </div>
                   </div>
-                </div>
-
-
-              </section>
-            </main>
-            <!-- /main site -->
-
-            <footer id="site_footer">
-              <!-- usiamo flexbox per disporre gli oggetti all'interno -->
-              <div class="foot-sx">
-                <img src="img/sinister.jpeg" alt="">
-                <div class="foot-text">
-                  <h6>sinister</h6>
-                  <p>brano nome</p>
-                </div>
-
-                <i class="far fa-heart cuore"></i>
-                <i class="far fa-folder folder"></i>
-
-
               </div>
 
-              <div class="foot-centre">
+        </section>
 
-                <div class="player">
+      </main>
+      <!-- /main site -->
 
-                  <i class="fas fa-random"></i>
-                  <i class="fas fa-step-backward"></i>
-                  <i class="far fa-play-circle play"></i>
-                  <i class="fas fa-step-forward"></i>
-                  <i class="fas fa-redo-alt"></i>
-                </div>
+      <!-- footer site -->
+      <footer id="site_footer">
+        <!-- usiamo flexbox per disporre gli oggetti all'interno -->
+        <div class="foot-sx">
+          <img src="img/sinister.jpeg" alt="">
+            <div class="foot-text">
+              <h6>sinister</h6>
+              <p>brano nome</p>
+            </div>
 
-                <div class="load">
+            <div class="small-icon">
+              <i class="far fa-heart cuore"></i>
+              <i class="far fa-folder folder"></i>
 
-                  <span>0.25</span>
-                  <div class="bar">
-                    <span class="lenght-white"></span>
-                  </div>
-                  <span>4.35</span>
-                </div>
+            </div>
+
+
+        </div>
+
+        <div class="foot-centre">
+
+              <div class="player">
+
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="far fa-play-circle play"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo-alt"></i>
               </div>
 
-              <div class="foot-dx">
+              <div class="load">
 
-                <!-- all'interno icone più barra player -->
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-desktop"></i>
-                <i class="fas fa-volume-up"></i>
-                <div class="small-bar">
+                <span>0.25</span>
+                <div class="bar">
                   <span class="lenght-white"></span>
                 </div>
-
+                <span>4.35</span>
               </div>
+        </div>
 
-            </footer>
+        <div class="foot-dx">
+
+          <!-- all'interno icone più barra player -->
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-desktop"></i>
+          <i class="fas fa-volume-up"></i>
+          <div class="small-bar">
+            <span class="lenght-white"></span>
           </div>
 
-        </body>
-        </html>
+        </div>
+
+
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>

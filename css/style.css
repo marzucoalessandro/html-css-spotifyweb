@@ -333,8 +333,7 @@ footer#site_footer {
 
 
 .foot-sx {
-  /* background-color: red; */
-  width: 10%;
+
   display: flex;
 
 }
@@ -347,6 +346,7 @@ footer#site_footer {
   padding-left: 5px;
   height: 40px;
   padding-top: 15px;
+  width: 80px;
 }
 
 .foot-sx h6 {
@@ -358,24 +358,24 @@ footer#site_footer {
   width: 50px;
 }
 
+.small-icon{
+  display: flex;
+  justify-content: space-around;
+  width: 60px;
+  align-items: center;
 
-.cuore{
-  padding-top: 20px;
-  padding-left: 40px;
+}
+.cuore, .folder{
   color: lightgrey;
 }
 
-.folder{
-  padding-top: 20px;
-  padding-left: 15px;
-  color: lightgrey;
-}
+
 
 
 .foot-dx{
   display: flex;
   align-items: center;
-  /* width: 10%; */
+
 }
 .foot-dx i{
   font-size: 10px;
@@ -402,7 +402,7 @@ footer#site_footer {
   justify-content: space-around;
   align-items: center;
   width: 300px;
-  /* background-color: red; */
+
   padding-bottom: 10px;
 }
 
@@ -443,9 +443,7 @@ footer#site_footer {
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
 
-  .mdpt-10{
-    padding-top: 10px;
-  }
+
 
   .navbar {
    flex-wrap: wrap;
@@ -458,8 +456,37 @@ footer#site_footer {
   .search {
     margin-top: 20px;
   }
+
+   .foot-sx {
+  width: 20%;
+  }
+
+  .foot-centre{
+  width: 60%;
+  }
+
+  .foot-dx{
+    width: 20%;
+  }
+
+  .bar{
+    width: 300px;
+  }
+
+  .player{
+    width: 200px;
+  }
+
+  .player i{
+    
+  }
+
+
+
+
+
 }
-  @media screen and (min-width: 490px) and (max-width: 768px) {
+  @media screen and (min-width: 590px) and (max-width: 768px) {
 
      .navbar{
       flex-wrap: wrap;
@@ -469,10 +496,32 @@ footer#site_footer {
       flex-basis: calc(100% / 3);
     }
 
+    .foot-sx, .foot-dx{
+      width: 25%;
+    }
+
+    .foot-centre{
+      width: 50%;
+    }
+
+    .bar{
+      width: 200px;
+    }
+
+    .small-bar{
+      width: 100px;
+    }
+
+    .small-icon{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+
 
   }
 
-  @media screen and (max-width: 489px) {
+  @media screen and (max-width: 590px) {
 
     .navbar{
      flex-wrap: wrap;
@@ -482,6 +531,7 @@ footer#site_footer {
      flex-basis: calc(100% / 4);
    }
 
-   
+   /* aside.main_menu {
+       width: 60px; */
 
   }
