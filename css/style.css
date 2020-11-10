@@ -616,9 +616,12 @@ i.point{
     .subscribe_banner {
       width: calc(100% - 40px);
     }
+  }
 
+  @media screen and (max-width: 550px) {
 
-
-
+    .navbar a{
+      font-size: 8px;
+    }
 
   }
