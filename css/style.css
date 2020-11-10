@@ -83,6 +83,12 @@ aside.main_menu {
   padding-bottom: 30px;
 }
 
+.toggle{
+  flex-direction: column;
+  align-content: space-between;
+
+}
+
 .toggle i{
   font-size: 25px;
   display: none;
@@ -134,6 +140,10 @@ aside.main_menu {
    text-transform: capitalize;
    font-size: 15px;
  }
+
+ /* .playlist ul{
+   overflow-y: scroll;
+ } */
 
  .playlist ul li{
    font-size: 10px;
@@ -426,6 +436,22 @@ footer#site_footer {
   left: 0;
 }
 
+i.point{
+  position: absolute;
+  top: -2px;
+  right: 0;
+  color: yellow;
+  display: none;
+}
+
+.bar:hover .lenght-white{
+  background-color: yellow;
+  }
+
+ .bar:hover i.point {
+  display: block;
+}
+
 
 .play{
   font-size: 30px;
@@ -589,10 +615,7 @@ footer#site_footer {
     .subscribe_banner {
       width: calc(100% - 40px);
     }
-    .install{
-      margin-left: auto;
-      margin-right: auto;
-    }
+
 
 
 
