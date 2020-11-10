@@ -87,6 +87,11 @@ aside.main_menu {
   font-size: 25px;
   display: none;
 }
+.toggle img{
+  display: none;
+  width: 25px;
+  color: white;
+}
 
 .home{
   width: 15%;
@@ -567,6 +572,9 @@ footer#site_footer {
       display: block;
       margin-bottom: 10px;
     }
+    .toggle img{
+      display: block;
+    }
 
     aside.main_menu {
       min-width: 0;
@@ -579,8 +587,13 @@ footer#site_footer {
 
 
     .subscribe_banner {
-      width: calc(100% - 30px);
+      width: calc(100% - 40px);
     }
+    .install{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
 
 
 
