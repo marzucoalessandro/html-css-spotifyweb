@@ -66,14 +66,13 @@ body {
 }
 
 #site_content{
-    height: calc(100% - 60px);
+    height: calc(100% - 70px);
 }
 aside.main_menu {
-    min-width: auto;
+    min-width: 200px;
     background-color: black;
     padding: 15px 30px 5px 10px;
     flex-direction: column;
-
 }
 
 .basic-item{
@@ -195,12 +194,12 @@ aside.main_menu {
   .card-1 img{
     width: 100%;
   }
-  .card-1 h4{
+  .style h4{
     text-transform: capitalize;
     font-size: 15px;
     padding-top: 10px;
   }
-  .card-1 p{
+  .style p{
     color: grey;
     font-size: 12px;
     padding-top: 10px;
@@ -214,13 +213,14 @@ aside.main_menu {
     display: none;
     width: 100%;
     height: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: #403f3f91;
     position: absolute;
     top: 0;
     left: 0;
   }
+
 
   .overlay span i{
     position: absolute;
@@ -239,11 +239,10 @@ aside.main_menu {
 
 .covers_section {
     background-color: #020925;
-    padding: 20px;;
+    padding: 20px;
     overflow-y: auto;
     overflow-x: hidden;
     padding-top: 60px;
-    /* margin-top: 60px; */
     width: calc(100% - 200px);
 }
 .subscribe_banner {
@@ -251,9 +250,9 @@ aside.main_menu {
     top: 0;
     right: 0;
     width: calc(100% - 200px);
-    /* height: 60px; */
     background-color: #00000075;
     padding: 15px 0;
+
 }
 
 .button{
@@ -267,11 +266,10 @@ aside.main_menu {
 }
 
 .covers_section button:hover{
-  /* background-color: lightgrey;
-  color: black; */
   transform: scale(1.1);
   cursor: pointer;
 }
+
 /* *********navbar element********** */
 .nav-site{
   padding-top: 10px;
@@ -279,9 +277,7 @@ aside.main_menu {
   justify-content: center;
 }
 
-/* .nav-site .container{
-  width: 100%;
-} */
+
 
 .nav-site {
   width: 100%;
@@ -333,9 +329,7 @@ footer#site_footer {
 
 
 .foot-sx {
-
   display: flex;
-
 }
 
 .foot-sx img{
@@ -402,7 +396,6 @@ footer#site_footer {
   justify-content: space-around;
   align-items: center;
   width: 300px;
-
   padding-bottom: 10px;
 }
 
@@ -522,62 +515,72 @@ footer#site_footer {
   @media screen and (max-width: 589px) {
 
     .navbar{
-     flex-wrap: wrap;
-   }
+      flex-wrap: wrap;
+    }
 
-   .navbar a{
-     flex-basis: calc(100% / 4);
-   }
+    .navbar a{
+      flex-basis: calc(100% / 4);
+    }
 
-   .foot-sx, .foot-dx{
-     width: 30%;
-   }
+    .foot-sx, .foot-dx{
+      width: 30%;
+    }
 
-   .foot-centre{
-     width: 40%;
-   }
+    .foot-centre{
+      width: 40%;
+    }
 
-   .bar{
-     width: 100px;
-   }
+    .bar{
+      width: 100px;
+    }
 
-   .player{
-     width: 100%;
-   }
+    .player{
+      width: 100%;
+    }
 
-   .small-bar{
-     width: 100px;
-   }
+    .small-bar{
+      width: 100px;
+    }
 
-   .small-icon{
-     display: flex;
-     flex-direction: column;
-     align-content: center;
-   }
+    .small-icon{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
 
-   .main_menu h5, .main_menu .playlist{
-     display: none;
-   }
+    .main_menu h5, .main_menu .playlist{
+      display: none;
+    }
 
-   .fondo p{
-     display: none;
-   }
+    .fondo p{
+      display: none;
+    }
 
-   .install{
-     border-bottom: none;
-   }
+    .install{
+      border-bottom: none;
+    }
 
-   .logo{
-     display: none;
-   }
-   .toggle i{
-     display: block;
-     margin-bottom: 10px;
-   }
+    .logo{
+      display: none;
+    }
+    .toggle i{
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    aside.main_menu {
+      min-width: 0;
+      width: 30px;
+    }
+
+    .covers_section {
+      width: calc(100% - 30px);
+    }
 
 
-
-
+    .subscribe_banner {
+      width: calc(100% - 30px);
+    }
 
 
 
