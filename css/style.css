@@ -73,6 +73,7 @@ aside.main_menu {
     background-color: black;
     padding: 15px 30px 5px 10px;
     flex-direction: column;
+    overflow-y: hidden;
 }
 
 .basic-item{
@@ -140,22 +141,18 @@ aside.main_menu {
    text-transform: capitalize;
    font-size: 15px;
  }
-  /* .playlist ul{
-   overflow-y: scroll;
- } */
 
-
-
- .playlist ul li{
+  .playlist ul li{
    font-size: 10px;
    list-style-type: none;
    text-transform: capitalize;
    color: #b3b3b3;
  }
 
- .playlist ul{
-   overflow-y: auto;
- }
+ .playlist ul {
+  overflow-y: auto;
+  height: 175px;
+}
 
  .install{
    border-bottom: 1px solid grey;
@@ -205,6 +202,7 @@ aside.main_menu {
   }
 
   /* main site central */
+
 
   .card-1{
     padding-left: 10px;
@@ -444,7 +442,7 @@ footer#site_footer {
 
 i.point{
   position: absolute;
-  top: -2px;
+  top: -3px;
   right: 0;
   color: yellow;
   display: none;
@@ -628,4 +626,13 @@ i.point{
     .navbar a{
       font-size: 8px;
     }
+  }
+
+   @media screen and (min-height: 330px) and (max-height: 470px) {
+
+    .playlist ul {
+     margin-bottom: 50px;
+     overflow-y: auto;
+     height: 150px;
+   }
   }
