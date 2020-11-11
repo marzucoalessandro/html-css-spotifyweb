@@ -59,6 +59,9 @@ body {
     background-color: #333;
     color: white;
 }
+a{
+  text-decoration: none;
+}
 .wrapper {
     height: 100vh;
     flex-direction: column;
@@ -82,6 +85,12 @@ aside.main_menu {
 .logo{
   width: 60%;
   padding-bottom: 30px;
+}
+.bordergreen{
+  border-left: 2px solid green;
+}
+.borderblack{
+  border-left: 2px solid black;
 }
 
 .toggle{
@@ -140,6 +149,7 @@ aside.main_menu {
    padding-left: 5px;
    text-transform: capitalize;
    font-size: 15px;
+   color: grey;
  }
 
   .playlist ul li{
@@ -147,6 +157,11 @@ aside.main_menu {
    list-style-type: none;
    text-transform: capitalize;
    color: #b3b3b3;
+   color: grey;
+ }
+
+ .playlist ul li:hover, .playlist p:hover{
+   color: white;
  }
 
  .playlist ul {
@@ -173,6 +188,11 @@ aside.main_menu {
    text-transform: capitalize;
    position: absolute;
    top: 10%;
+   color: grey;
+ }
+
+ .install p:hover{
+   color: white;
  }
 
   .john{
@@ -558,7 +578,10 @@ i.point{
     .small-icon{
       display: flex;
       flex-direction: column;
-      align-content: center;
+      align-self: center;
+      }
+    .folder{
+      padding-top: 5px;
     }
 
 
@@ -597,8 +620,12 @@ i.point{
     .small-icon{
       display: flex;
       flex-direction: column;
-      align-content: center;
+      align-self: center;
     }
+    .folder{
+      padding-top: 5px;
+    }
+
 
     .main_menu h5, .main_menu .playlist{
       display: none;
@@ -647,9 +674,9 @@ i.point{
 
    @media screen and (min-height: 330px) and (max-height: 470px) {
 
-    .playlist ul {
+     .playlist ul {
      margin-bottom: 20px;
      overflow-y: auto;
-     height: 150px;
+     height: 150px              ;
    }
   }
